@@ -17,7 +17,7 @@ function App() {
               <main className="main-content">
                 <Routes>
                   {/* Previous routes remain the same */}
-                  
+                  <Route path="/" element={<HomePage />} />
                   {/* Admin Routes */}
                   <Route path="/admin" element={<AdminDashboard />} />
                   <Route path="/admin/products" element={<ProductManagement />} />
