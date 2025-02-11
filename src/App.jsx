@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 import AdminDashboard from './pages/AdminDashboard';
 import ProductManagement from './pages/ProductManagement';
 import BlogManagement from './pages/BlogManagement';
